@@ -18,6 +18,10 @@ BREAKUP_LINE = (
     "them all, and for once I won't ask if you're sure."
 )
 
+# Why this line: the agent's defining habit is keeping everything, so
+# the ending is deleting it all; the twist lands in the last words,
+# when the agent that always asks for confirmation stops asking.
+
 
 def validate(text: str) -> None:
     """Check the breakup line against the competition gate."""
